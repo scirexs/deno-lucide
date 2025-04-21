@@ -1,7 +1,8 @@
 export { type IconNode, lucideSnippet };
 
-type SVGProps = Record<string, string | number>;
+/** Type of Lucide icon in "lucide" package. */
 type IconNode = [tag: string, attrs: SVGProps][];
+type SVGProps = Record<string, string | number>;
 type Getters<T> = {
   [K in keyof T]: () => T[K];
 };
