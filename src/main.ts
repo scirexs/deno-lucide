@@ -29,6 +29,7 @@ const DEFAULT_ATTRS = {
   class: "",
 };
 
+/** This function makes Snippet using createRawSnippet in the project. */
 function lucideSnippet(
   createRawSnippet: CreateRawSnippet,
 ): Snippet<[IconNode, string]> {
